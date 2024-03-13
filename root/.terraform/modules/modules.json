@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"NAT-GW","Source":"../modules/nat","Dir":"../modules/nat"},{"Key":"VPC","Source":"../modules/vpc","Dir":"../modules/vpc"},{"Key":"vpc","Source":"../modules/vpc","Dir":"../modules/vpc"}]}
