@@ -1,4 +1,4 @@
-# 🚀 3rdWeeksofCloudOps - 2 tier Application throgh terraform 
+# 🚀 Deploy - 2 tier Application throgh terraform 
 
 ✨This repository is created to learn and deploy  2-tier application on aws cloud through terraform. 
 
