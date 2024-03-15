@@ -5,7 +5,7 @@
 /modules/*/terraform.tfvars
 /modules/*/terraform-provider-*
 
-/root/.terraform/
+root/.terraform/*
 /root/terraform.tfstate
 /root/terraform.tfstate.backup
 /root/terraform.tfvars
