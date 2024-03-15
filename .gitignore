@@ -4,7 +4,7 @@
 *.tfvars
 
 # Ignore .terraform directory
-.terraform/
+../root/.terraform/
 
 # Ignore .terraform.lock.hcl file
 terraform.lock.hcl
