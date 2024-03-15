@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🚀  2 tier Application throgh terraform 
+=======
+# 🚀 Deploy - 2 tier Application throgh terraform 
+>>>>>>> bcf1fc7f583003ae648db7f2d0059b69ec088635
 
 ✨This repository is created to learn and deploy  2-tier application on aws cloud through terraform. 
 
