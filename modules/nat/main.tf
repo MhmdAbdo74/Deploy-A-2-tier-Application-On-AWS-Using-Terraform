@@ -25,7 +25,7 @@ resource "aws_nat_gateway" "NAT-GW-A" {
     depends_on = [var.IGW_ID]
 
 }
-# create nat gateway in public subnet pub-sub-1-a
+# create nat gateway in public subnet pub-sub-2-b
 resource "aws_nat_gateway" "NAT-GW-B" {
   allocation_id = aws_eip.EIP-NAT-GW-B.id
   subnet_id     = var.PUB_SUB_2_B_ID
