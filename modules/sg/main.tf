@@ -60,7 +60,7 @@ resource "aws_security_group" "client_sg" {
 # create security group for the Database
 resource "aws_security_group" "db_sg" {
   name        = "db_sg"
-  description = "enable mysql access on port 3305 from client-sg"
+  description = "enable mysql access on port 3306 from client-sg"
   vpc_id      = var.VPC_ID
 
   ingress {

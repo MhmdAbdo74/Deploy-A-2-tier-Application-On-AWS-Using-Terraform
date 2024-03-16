@@ -53,6 +53,3 @@ resource "aws_cloudfront_distribution" "my_distribution" {
     minimum_protocol_version = "TLSv1.2_2018"
   }
 }
-output "certificate_arn" {
-  value = aws_acm_certificate.my_certificate.arn
-}

@@ -22,7 +22,7 @@ resource "aws_nat_gateway" "NAT-GW-A" {
   tags          = {
     Name        = "NAT-GW-A"
   }
-    depends_on = [var.IGW_ID]
+    depends_on = [var.IGW_ID] # creation of nat gateway depends on the creation of internet gateway
 
 }
 # create nat gateway in public subnet pub-sub-2-b
