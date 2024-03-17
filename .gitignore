@@ -1,6 +1,13 @@
-# Ignore Terraform files and directories
+# Ignore Terraform files
 *.tfstate
 *.tfstate.*
 .terraform/
 terraform.tfstate.backup
 *.tfvars
+
+# Ignore Terraform files within modules directory
+/modules/*/main.tf
+/modules/*/output.tf
+/modules/*/variables.tf
+/modules/*/config.sh
+/modules/*/id_rsa.pub
