@@ -11,4 +11,4 @@ terraform.tfstate.backup
 /modules/*/variables.tf
 /modules/*/config.sh
 /modules/*/id_rsa.pub
-/root/.terraform
+~/root/.terraform
