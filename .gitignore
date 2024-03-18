@@ -1,14 +1,16 @@
-# Ignore Terraform files
-*.tfstate
-*.tfstate.*
-.terraform/
-terraform.tfstate.backup
-*.tfvars
+# Ignore directories
+/modules/*/terraform.tfstate*
+/modules/*/terraform.tfstate.backup
+/modules/*/.*.tfstate
+/modules/*/terraform.tfvars
+/modules/*/terraform-provider-*
 
-# Ignore Terraform files within modules directory
-/modules/*/main.tf
-/modules/*/output.tf
-/modules/*/variables.tf
-/modules/*/config.sh
+/root/.terraform/
+/root/terraform.tfstate
+/root/terraform.tfstate.backup
+/root/terraform.tfvars
+/root/.terraform.lock.hcl
+
+# Ignore specific files
 /modules/*/id_rsa.pub
-~/root/.terraform
+#
