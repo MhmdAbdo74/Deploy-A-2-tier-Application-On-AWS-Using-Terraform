@@ -1,16 +1,2 @@
-# Ignore directories
-/modules/*/terraform.tfstate*
-/modules/*/terraform.tfstate.backup
-/modules/*/.*.tfstate
-/modules/*/terraform.tfvars
-/modules/*/terraform-provider-*
+**/variables.tf
 
-~/root/.terraform/
-/root/terraform.tfstate
-/root/terraform.tfstate.backup
-/root/terraform.tfvars
-/root/.terraform.lock.hcl
-
-# Ignore specific files
-/modules/*/id_rsa.pub
-#sf
