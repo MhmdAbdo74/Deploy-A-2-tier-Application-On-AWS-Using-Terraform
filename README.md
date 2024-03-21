@@ -40,3 +40,5 @@
 #### Step 5: create EBS modules and on it create EBS volumes and attach it to EC2 instances 
 #### Step 6: create root modules and call on it all modules that we created before and create a stack for this task .
 
+# Finally you can acess website securely from your domain
+!(https://github.com/MhmdAbdo74/Deploy-A-2-tier-Application-On-AWS-Using-Terraform/assets/94086189/3ced3fd3-27d2-4f0b-92f3-52674c0ddf70)
