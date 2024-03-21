@@ -8,7 +8,7 @@
 ## 🏠 Architecture
 ![Architecture of the application](architecture.gif)
 
-# Services Used in Infrastructure
+# Services Used in Infrastructure 📃 
 
 ## Amazon Web Services (AWS)
 
