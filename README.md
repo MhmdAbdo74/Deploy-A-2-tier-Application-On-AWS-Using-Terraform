@@ -8,6 +8,25 @@
 ## 🏠 Architecture
 ![Architecture of the application](architecture.gif)
 
+# Services Used in Infrastructure
+
+## Amazon Web Services (AWS)
+
+- **Amazon Certificate Manager (ACM)**: Provides SSL/TLS certificates for securing websites.
+- **Amazon Route 53**: A highly available and scalable DNS web service.
+- **Amazon CloudFront**: A content delivery network (CDN) service for fast delivery of content to users.
+- **Amazon EC2**: Provides resizable compute capacity in the cloud, often used for hosting servers.
+- **Amazon Auto Scaling**: Automatically adjusts the number of EC2 instances based on demand.
+- **Amazon VPC (Virtual Private Cloud)**: Provides a virtual network where you can launch AWS resources.
+- **Amazon RDS (Relational Database Service)**: Managed relational database service for MySQL, PostgreSQL, SQL Server, etc.
+- **Amazon DynamoDB**: A fully managed NoSQL database service for fast and predictable performance with seamless scalability.
+- **Amazon S3 (Simple Storage Service)**: Scalable object storage for storing backend data and enabling versioning.
+- **Amazon CloudWatch**: Monitoring and observability service for AWS resources. Can set alarms based on metrics like CPU utilization.
+
+## Other Tools and Services
+
+- **Terraform**: Infrastructure as Code tool used for managing and provisioning infrastructure.
+
 # task in steps
 # task in steps
 #### Step 1: create vpc modules and create on it all infrastructure for this  task .
